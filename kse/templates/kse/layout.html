@@ -1,0 +1,220 @@
+{% load static %}
+<!DOCTYPE HTML>
+<!--
+	Greatness by FreeHTML5.co
+	Twitter: http://twitter.com/fh5co
+	URL: http://FreeHTML5.co
+-->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Khael Solutions | {% block title %}{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
+    <meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+    <meta name="author" content="FreeHTML5.co" />
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
+
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+
+    <!-- Favicon
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'kse/images/apple-touch-icon.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'kse/images/favicon.png' %}">
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="{% static 'kse/css/animate.css' %}">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="{% static 'kse/css/icomoon.css' %}">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="{% static 'kse/css/bootstrap.css' %}">
+
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="{% static 'kse/css/magnific-popup.css' %}">
+
+    <!-- Owl Carousel  -->
+    <link rel="stylesheet" href="{% static 'kse/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'kse/css/owl.theme.default.min.css' %}">
+
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="{% static 'kse/css/style.css' %}">
+
+    <!-- Modernizr JS -->
+    <script src="{% static 'kse/js/modernizr-2.6.2.min.js' %}"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+
+    {% block body %} {% endblock body %}
+
+
+
+    <div id="gtco-subscribe">
+        <div class="gtco-container">
+            <div class="row animate-box">
+                <div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+                    <h2>Subscribe to our newsletter</h2>
+                    <p>Be the first to know about the new products.</p>
+                </div>
+            </div>
+            <div class="row animate-box">
+                <div class="col-md-12">
+                    <form class="form-inline">
+                        <div class="col-md-4 col-sm-4">
+                            <div class="form-group">
+                                <label for="email" class="sr-only">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Your email">
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div class="form-group">
+                                <label for="name" class="sr-only">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Your name">
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <button type="submit" class="btn btn-default btn-block">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer id="gtco-footer" role="contentinfo">
+        <div class="gtco-container">
+            <!--     <div class="row row-pb-md">
+                <div class="col-md-2 col-sm-4 col-xs-6 ">
+                    <ul class="gtco-footer-links">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Meetups</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <ul class="gtco-footer-links">
+                        <li><a href="#">Creative Design</a></li>
+                        <li><a href="#">Branding</a></li>
+                        <li><a href="#">Illustration</a></li>
+                        <li><a href="#">Subscribe</a></li>
+                        <li><a href="#">Monthly Event</a></li>
+                    </ul>
+                </div>
+
+                <div class="clearfix visible-xs-block"></div>
+
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <ul class="gtco-footer-links">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Meetups</a></li>
+                    </ul>
+                </div>
+
+                <div class="clearfix visible-sm-block"></div>
+
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <ul class="gtco-footer-links">
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Handbook</a></li>
+                        <li><a href="#">Held Desk</a></li> 
+                    </ul>
+                </div>
+
+                <div class="clearfix visible-xs-block"></div>
+
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <ul class="gtco-footer-links">
+                        <li><a href="#">Find Designers</a></li>
+                        <li><a href="#">Find Deelopers</a></li>
+                        <li><a href="#">Teams</a></li>
+                        <li><a href="#">Advertise</a></li>
+                        <li><a href="#">API</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <ul class="gtco-footer-links">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Meetups</a></li> 
+                    </ul>
+                </div>
+
+            </div> -->
+
+            <div class="row copyright">
+                <div class="col-md-12">
+                    <p class="pull-left">
+                        <small class="block">&copy;
+                            <script>
+                                document.write(new Date().getFullYear())
+                            </script> KhaelSolutions </small>
+                        <!--  <small class="block">Designed by <a href="http://FreeHTML5.co/" target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small> -->
+                    </p>
+                    <p class="pull-right">
+                        <ul class="gtco-social-icons pull-right">
+                            <li><a href="#"><i class="icon-twitter"></i></a></li>
+                            <li><a href="#"><i class="icon-facebook"></i></a></li>
+                            <li><a href="#"><i class="icon-linkedin"></i></a></li>
+                            <li><a href="#"><i class="icon-dribbble"></i></a></li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    </div>
+
+    <div class="gototop js-top">
+        <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+    </div>
+
+    <!-- jQuery -->
+    <script src="{% static 'kse/js/jquery.min.js' %}"></script>
+    <!-- jQuery Easing -->
+    <script src="{% static 'kse/js/jquery.easing.1.3.js' %}"></script>
+    <!-- Bootstrap -->
+    <script src="{% static 'kse/js/bootstrap.min.js' %}"></script>
+    <!-- Waypoints -->
+    <script src="{% static 'kse/js/jquery.waypoints.min.js' %}"></script>
+    <!-- Carousel -->
+    <script src="{% static 'kse/js/owl.carousel.min.js' %}"></script>
+    <!-- countTo -->
+    <script src="{% static 'kse/js/jquery.countTo.js' %}"></script>
+    <!-- Magnific Popup -->
+    <script src="{% static 'kse/js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'kse/js/magnific-popup-options.js' %}"></script>
+    <!-- Main -->
+    <script src="{% static 'kse/js/main.js' %}"></script>
+
+</body>
+
+</html>
